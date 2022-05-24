@@ -21,7 +21,6 @@ rsync -av --delete \
   --exclude=".local" \
   --exclude=".mozilla" \
   --exclude="Documents" \
-  --exclude="Games" \
   "${BACKUP_PATH}"
 
 rm -rf "${LATEST_LINK}"
